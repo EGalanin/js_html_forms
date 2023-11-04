@@ -36,13 +36,15 @@
     "live-server": "^1.2.2",
     "md-converter": "^1.0.3",
     "mini-css-extract-plugin": "^2.7.6",
-    "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
     "core-js": "^3.33.2",
+    "css-minimizer-webpack-plugin": "^5.0.1",
     "jest-environment-jsdom": "^29.7.0",
-    "jsdom": "^22.1.0"
+    "jsdom": "^22.1.0",
+    "webpack": "^5.89.0",
+    "webpack-merge": "^5.10.0"
   }
 }
