@@ -30,10 +30,12 @@ export default class Popover {
     this.popover.style.left = `${left + width / 2 - this.popover.offsetWidth / 2}px`;
   }
 
+  /* eslint-disable class-methods-use-this */
   removePopover() {
     const currenrPopover = document.querySelector('.popover');
     if (currenrPopover) {
       currenrPopover.remove();
     }
   }
+  /* eslint-enable class-methods-use-this */
 }
